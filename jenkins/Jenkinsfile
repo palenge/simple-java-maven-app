@@ -18,7 +18,7 @@ lopipeline {
         }
         stage('hello') {
             steps {
-                sh 'echo "Wooohoo"'
+                echo "Wooohoo"
             }
         }
     }
